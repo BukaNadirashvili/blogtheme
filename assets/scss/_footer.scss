@@ -1,0 +1,28 @@
+.footer-posts-list {
+  list-style-image: url('http://blog.loc/wp-content/themes/blog/assets/svg/caret.svg');
+}
+
+.footer-post-image {
+  width: 96px;
+  height: 56px;
+}
+
+.footer-post-title {
+  color: $white;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.footer-nav-link {
+  color: $white;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.footer-post-with-image {
+  border-bottom: 1px solid $white;
+}

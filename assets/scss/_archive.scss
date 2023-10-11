@@ -1,0 +1,26 @@
+.page-numbers {
+  color: #000;
+  display: flex;
+}
+
+.current {
+  font-weight: bold;
+}
+
+.archive main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.archive-card-title {
+  color: $black;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.next, .prev {
+  font-weight: bold;
+}

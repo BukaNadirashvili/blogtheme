@@ -1,0 +1,37 @@
+@import './common/variables';
+@import './common/mixins';
+@import './common/customize';
+@import "~bootstrap/scss/bootstrap";
+
+@import "./template-parts/site-header";
+@import "./template-parts/mosaic";
+@import "./template-parts/category-slider";
+@import "./template-parts/social-icons";
+@import "./template-parts/parts/cards/_home-page-card-full";
+@import "./footer";
+@import "./archive";
+@import "./single";
+@import "./search";
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+body {
+  background: $white;
+  font-family: Poppins;
+  min-height: 100vh !important;
+}
+
+.ellipsis-2 {
+  @include ellipsis(2);
+}
+
+.ellipsis-3 {
+  @include ellipsis(3);
+}
+
+.border-image {
+  border-radius: 15px;
+}

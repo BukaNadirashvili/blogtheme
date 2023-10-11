@@ -1,0 +1,13 @@
+.search-page-btn {
+  right: 6px;
+  border: none;
+  background: none;
+
+  svg {
+    height: 14px;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}

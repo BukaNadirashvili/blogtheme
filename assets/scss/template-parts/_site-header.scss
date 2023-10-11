@@ -1,0 +1,110 @@
+// SCSS file for site header
+
+// Header with tags
+
+.header-tag:hover {
+  & .header-tag-icon {
+    opacity: 1;
+  }
+}
+
+.header-tag-icon {
+  opacity: 0.5;
+  height: 18px;
+  color: $white;
+}
+
+// Header navigation menu
+
+.header-navigation-container {
+  background-color: #f6f6f6;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.header-nav-link {
+  color: $white !important;
+
+  @include large {
+    color: $black !important;
+  }
+
+  &:hover {
+    color: $primary !important;
+  }
+}
+
+// offcanvas
+.offcanvas-social-icons {
+  color: #eee;
+  height: 18px;
+
+  &:hover {
+    color: $primary !important;
+  }
+}
+
+.offcanvas-tag-list-item {
+
+  a {
+    color: #eee;
+  }
+
+  &:hover {
+    a {
+      color: $primary;
+    }
+
+    span {
+      svg {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.offcanvas-search-icon {
+  color: black;
+  height: 18px;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.offcanvas-search-btn {
+  right: 32px;
+  border: none;
+  background: none;
+}
+
+.search-modal-btn {
+  border: none;
+  background: none;
+
+  svg {
+    height: 26px;
+  }
+
+  &:hover {
+    svg {
+      color: $primary;
+    }
+  }
+}
+
+.header-icon {
+  color: #666666;
+  height: 18px;
+
+  &:hover {
+    color: $primary;
+  }
+}

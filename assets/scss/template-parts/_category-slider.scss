@@ -1,0 +1,18 @@
+.category-slide {
+
+  img {
+    filter: brightness(70%);
+  }
+
+  a {
+    color: $white;
+    @include ellipsis(2);
+  }
+
+  &:hover {
+    img {
+      filter: brightness(50%);
+      cursor: pointer;
+    }
+  }
+}

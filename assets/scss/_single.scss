@@ -1,0 +1,34 @@
+.next-link,
+.prev-link {
+  a {
+    color: $black;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.prev-icon,
+.next-icon {
+  color: $primary;
+  height: 16px;
+  cursor: pointer;
+}
+
+.facebook-share-btn {
+  background: #0165E1
+}
+
+.facebook-icon {
+  fill: #eee;
+  height: 16px;
+}
+
+.next-link {
+  a {
+    @include medium {
+      max-width: 98px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+$custom-spacers: (
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+  7: $spacer * 3,
+  8: $spacer * 3.5
+);
+
+$spacers: map-merge($spacers, $custom-spacers);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+// $enable-grid-classes: false;
+$enable-cssgrid: true;
+
+// :root {
+//   @each $spacer, $value in $spacers {
+//     --theme-spacer-#{$spacer}: #{$value}
+//   } 
+// }
